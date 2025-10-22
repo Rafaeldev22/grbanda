@@ -1,10 +1,21 @@
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppButton() {
-  const handleWhatsAppClick = () => {
-    const phoneNumber = '5511999999999';
-    const message = encodeURIComponent('Olá! Gostaria de contratar a VS Band para meu evento.');
-    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+  const handleWhatsAppClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const phone = "5585999402952";
+    const text  = "Olá! Gostaria de contratar a Banda para meu evento.";
+    const url   = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(text)}`;
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    document.body.appendChild(a);
+    a.click(); // abre em nova aba
+    a.remove();
   };
 
   return (

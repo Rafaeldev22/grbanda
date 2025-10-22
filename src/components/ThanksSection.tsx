@@ -25,7 +25,7 @@ export default function ThanksSection() {
 
           <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
             <p className="text-center">
-              Agradecemos de coração a todos que confiaram na <span className="text-orange-500 font-semibold">VS Band</span> para
+              Agradecemos de coração a todos que confiaram na <span className="text-orange-500 font-semibold">Banda Gabriel Rhyan</span> para
               tornar seus eventos ainda mais especiais!
             </p>
 
@@ -51,7 +51,7 @@ export default function ThanksSection() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-500 text-sm">
-            VS Band - Virtual Sound Experience
+            Banda Gabriel Rhyan - Uma experiencia única!
           </p>
         </div>
       </div>

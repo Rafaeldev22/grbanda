@@ -30,8 +30,8 @@ function App() {
       <main>
         <HeroSection />
         <VideoSection />
-        <PhotoSection />
         <AboutSection />
+        <PhotoSection />
         <ThanksSection />
       </main>
 

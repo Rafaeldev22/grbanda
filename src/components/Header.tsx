@@ -39,9 +39,9 @@ export default function Header({ scrollToSection, mobileMenuOpen, setMobileMenuO
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
-                VS Band
+                Banda Gabriel Rhyan
               </h1>
-              <p className="text-xs text-gray-400">Virtual Sound Experience</p>
+              <p className="text-xs text-gray-400">A Banda que faz você dançar!</p>
             </div>
           </div>
 

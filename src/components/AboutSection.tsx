@@ -24,17 +24,17 @@ export default function AboutSection() {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
-            Sobre a VS Band
+            Sobre a Banda Gabriel Rhyan
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-            Uma banda inovadora que combina talento ao vivo com tecnologia Virtual Sound
+            Uma banda que combina talento ao vivo com tecnologia Virtual Sound!
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-16">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 md:p-12 border border-orange-500/20 shadow-2xl">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              A <span className="text-orange-500 font-semibold">VS Band</span> é uma experiência musical única que une o melhor dos dois mundos:
+              A <span className="text-orange-500 font-semibold">Banda Gabriel Rhyan</span> é uma experiência musical única que une o melhor dos dois mundos:
               a energia e emoção de músicos ao vivo com a qualidade e versatilidade do Virtual Sound (VS).
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
